@@ -1,0 +1,12 @@
+.articles{
+	padding-bottom: :30px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.articles img {
+	margin:1px;
+	border-radius: 10px
+}

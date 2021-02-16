@@ -1,0 +1,83 @@
+.categories a{
+	text-decoration: none;
+	font-size: 15px;
+	padding:8px;
+	color:rgb(131,46,31);
+	transition: color 0.3s ease;
+	margin: 20px
+}
+
+.categories a:hover {
+	text-decoration: underline
+	text-decoration-color:rgb(131,46,31);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.banner a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 8px;
+	color:white;
+	background-color: black;
+	transition: color 0.7s ease;
+	margin-left: 20px
+}
+
+.banner a:hover{
+	color: black;
+	background-color: white;
+}
+
+.banner-orange a{
+	display: inline-block;
+	background-color: none;
+	font-size :30px;
+	color:white;
+	padding:20px 60px;
+}
+
+.banner-orange a:hover{
+	background-color: none;
+	color:black;
+}
+
+@media (max-width: 540px) {
+  .categories a {
+   display: block;
+   margin: 4px 0;
+  }
+  .banner-orange a{
+  padding:20px;
+  }
+  .container a{
+  	font-size: 12px
+  }
+}
+
+.collection a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 8px;
+	color:white;
+	background-color: #C8AD7F;
+	transition: color 0.7s ease;
+	border-radius: 5px
+}
+
+.collection a:hover{
+	background-color: #c45824;
+}
+
+.cards a{
+	text-decoration: none;
+	text-align: left;
+	font-size: 20px;
+	padding: 8px;
+	color:#c45824;
+	transition: color 0.7s ease;
+}
+
+.cards a:hover{
+	color:green;
+}

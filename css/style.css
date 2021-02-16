@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Nanum+Myeongjo&family=Playfair+Display&display=swap");
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/articles.css");
+@import url("components/buttons.css");
+@import url("components/collection.css");
+@import url("components/card.css");
+
+
+
+body {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 14px;
+	letter-spacing:0.3px;
+	text-align: center;
+	margin: 0px;
+}
+
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size:24px;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+}
